@@ -131,7 +131,8 @@ const ChatBot: React.FC = () => {
         </div>
       </div>
       
-      <style jsx>{`
+      <style>
+        {`
         .typing-indicator {
           display: flex;
           align-items: center;
@@ -177,7 +178,8 @@ const ChatBot: React.FC = () => {
             opacity: 0.4;
           }
         }
-      `}</style>
+        `}
+      </style>
     </div>
   );
 };
