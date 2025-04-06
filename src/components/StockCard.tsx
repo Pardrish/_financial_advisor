@@ -61,7 +61,7 @@ const StockCard: React.FC<StockCardProps> = ({
         </div>
         
         <div className="text-right">
-          <div className="text-lg font-medium">${price.toLocaleString()}</div>
+          <div className="text-lg font-medium">Rs{price.toLocaleString()}</div>
           <div className={cn(
             "flex items-center justify-end text-sm",
             isPositive ? "text-green-500" : "text-red-500"
@@ -76,7 +76,7 @@ const StockCard: React.FC<StockCardProps> = ({
           
           {value !== undefined && (
             <div className="text-sm text-muted-foreground mt-1">
-              Value: ${value.toLocaleString()}
+              Value: Rs{value.toLocaleString()}
             </div>
           )}
         </div>
