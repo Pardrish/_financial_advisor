@@ -60,7 +60,7 @@ const PortfolioChart: React.FC<PortfolioChartProps> = ({ className }) => {
         <div>
           <h3 className="text-lg font-medium">Portfolio Value</h3>
           <div className="flex items-baseline mt-1">
-            <span className="text-2xl font-medium">$124,568.94</span>
+            <span className="text-2xl font-medium">Rs.124,568.94</span>
             <span className={cn(
               "ml-2 text-sm",
               isPositiveChange ? "text-green-500" : "text-red-500"
